@@ -6,6 +6,10 @@
     <description>Recent content in おすすめ商品 on 燃料店ドットコム 「住宅機器＋ＩＴ技術」で快適生活をご提案します。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 08 Dec 2020 10:36:15 +0900</lastBuildDate><atom:link href="https://www.nenryo10.com/osusume-goods/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Dec 2020 10:36:15 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.nenryo10.com/osusume-goods/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>
