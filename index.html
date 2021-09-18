@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html lang="ja">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  
+  <script type="text/javascript">
+          $(document).ready(function(){
+              $('.slider').bxSlider({
+                  auto: true,
+                  pause: 5000,
+              });
+          });
+  </script>
+  
   
   
   
@@ -467,6 +480,12 @@ home page-template page-template-page-lp page-template-page-lp-php page page-id-
           /></span>
         </a>
       </h1>
+      <h1 class="navbar-brand siteHeader_logo">
+          <span
+            ><img
+              src="/images/phone.png"
+          /></span>
+      </h1>
     </div>
 
     <div id="gMenu_outer" class="gMenu_outer">
@@ -808,15 +827,11 @@ home page-template page-template-page-lp page-template-page-lp-php page page-id-
 >
   <div class="carousel-inner">
     <div class="carousel-item item item-1 active">
-      <a href="/">
-        <picture>
-          <img
-            src="/images/2016/11/nenryo10header5.jpg"
-            alt=""
-            class="slide-item-img d-block w-100"
-          />
-        </picture>
-      </a>
+      <div class="slider">
+        <img src="/images/2016/11/nenryo10header6.jpg" width="500" height="500" alt="">
+        
+      </div>
+      
 
       <div class="slide-text-set mini-content">
         <div
