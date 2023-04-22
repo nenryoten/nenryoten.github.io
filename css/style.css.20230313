@@ -1,0 +1,355 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*===================
+        共通
+====================*/
+
+html {
+	font-size: 64.5%;
+}
+
+body {
+	color: 000;
+	font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+    line-height: 1.5;
+    letter-spacing: 1px;
+    width: 100%;
+    max-width: 100%;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+ p {
+	font-size: 1.6rem;
+	font-weight: 300;
+}
+
+
+
+@media screen and (max-width:1020px) {
+   .inner {
+	padding: 0 16px;
+} 
+}
+
+header {
+    height: 70px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.header_logo img {
+    width: 250px;
+    height: 100%;
+}
+
+@media screen and (max-width:1020px) {
+.header_logo img {
+    width: 200px;
+    height: 100%;
+}
+}
+
+.mv_home {
+    position: relative;
+}
+
+.mv_home p {
+    font-size: 4vw;
+    color: #fff;
+    position: absolute;
+    top: 3vw;
+    right: 10vw;
+    z-index: 9999;
+}
+
+.mv_facility {
+    position: relative;
+}
+
+.mv_facility p {
+    font-size: 4rem;
+    color: #fff;
+    background-color: #3D7EFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+.mv_support {
+    position: relative;
+}
+
+.mv_support p {
+    font-size: 4rem;
+    color: #fff;
+    background-color: #3D7EFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+.section {
+    max-width: 100%;
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.section_wrap {
+    padding-top: 40px;
+}
+
+.section_ttl {
+	text-align: center;
+    padding-bottom: 40px;
+}
+
+.section_ttl h2 {
+	font-size: 4rem;
+	border-bottom: solid 3px #3D7EFF;
+	display: inline-block;
+	text-align: center;
+	font-weight: 500;
+}
+
+@media screen and (max-width:1020px) {
+.section_ttl h2 {
+	font-size: 2.5rem;
+} 
+}
+
+/*===================
+        HOME
+====================*/
+
+.security_detail {
+    display:flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:1020px) {
+.security_detail {
+    display:block;
+}
+} 
+
+.security_detail img {
+    width:40%;
+    height: 100%;
+    padding-right: 10px;
+}
+
+@media screen and (max-width:1020px) {
+.security_detail img {
+    width:100%;
+}
+} 
+
+.security_detail p {
+   font-size: 1.5rem;
+}
+
+.work_detail {
+    padding-bottom:30px; 
+}
+
+.work_detail h3 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width:1020px) {
+.work_detail h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+}
+
+.work_detail h3::before {
+    content: "";
+    padding: 0.1em 0.2em;/*上下 左右の余白*/
+    color: #3D7EFF;/*文字色*/
+    background: transparent;/*背景透明に*/
+    border-left: solid 15px #3D7EFF;/*左線*/ 
+}
+
+
+.btn{
+    background-color: #3D7EFF;
+    color: #fff;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.infomation_detail_img {
+    text-align: center;
+}
+
+.infomation_detail_img img{
+    width: 45px;
+    height: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.infomation_topics_wrap {
+    padding-top: 30px;
+}
+
+.infomation_topics {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+@media screen and (max-width:1020px) {
+.infomation_topics {
+    display: block;
+}
+} 
+
+.infomation_topics p {
+    margin: 5px 5px 0 5px;
+    padding: 5px;
+}
+
+.date {
+    letter-spacing: 0.5px;
+}
+
+.tag {
+    background-color: #3D7EFF;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+
+}
+
+
+/*===================
+    ガス事業者サポート
+====================*/
+.management_detail{
+    text-align: center;
+}
+
+.task p {
+    text-align: center;
+}
+
+.task_detail_wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.task_detail, .feature_detail h3 {
+    font-size: 3rem;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width:1020px) {
+.task_detail, .feature_detail h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+}
+
+.task_detail h3::before {
+    content: "";
+    padding: 0.1em 0.2em;/*上下 左右の余白*/
+    color: #3D7EFF;/*文字色*/
+    background: transparent;/*背景透明に*/
+    border-left: solid 15px #3D7EFF;/*左線*/ 
+}
+
+.task_detail h3 {
+    padding: 10px 0;
+}
+
+
+.task_detail p {
+    text-align: left;
+}
+
+.feature_detail_wrap {
+    display: flex;
+}
+
+.feature_detail {
+    width: 50%;
+}
+
+.feature_detail h3::before {
+    content: "";
+    padding: 0.1em 0.2em;/*上下 左右の余白*/
+    color: #3D7EFF;/*文字色*/
+    background: transparent;/*背景透明に*/
+    border-left: solid 15px #3D7EFF;/*左線*/ 
+}
+/*===================
+    
+====================*/
+
+.facility_detail_wrap {
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+.facility_text h3 {
+    font-size: 2.3rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+@media screen and (max-width:1020px) {
+.facility_text h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+}
+
+.facility_text h3::before {
+    content: "";
+    padding: 0.1em 0.2em;/*上下 左右の余白*/
+    color: #3D7EFF;/*文字色*/
+    background: transparent;/*背景透明に*/
+    border-left: solid 15px #3D7EFF;/*左線*/ 
+}
+
+.facility_text p {
+    text-align: left;
+    padding-top: 20px;
+}
+
+.facility_text a {
+    border-bottom: solid 1px #000;
+}
+
+.facility_img img {
+    width: 70%;
+}
+
