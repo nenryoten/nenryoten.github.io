@@ -5,6 +5,10 @@
         共通
 ====================*/
 
+h1 {
+    background-color: darkorange;
+    color: white;
+}
 
 body {
     color: 000;
