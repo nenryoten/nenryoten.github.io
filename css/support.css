@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	font-size: 64.5%;
+}
+
+body {
+	color: 000;
+	font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+    line-height: 1.5;
+    letter-spacing: 1px;
+    width: 100%;
+    max-width: 100%;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+ p {
+	font-size: 1.6rem;
+	font-weight: 300;
+}
+
+@media screen and (max-width:1020px) {
+   .inner {
+	padding: 0 16px;
+} 
+}
+
+.section {
+    max-width: 100%;
+    width: 850px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.section_wrap {
+    padding-top: 40px;
+}
+
+.section_ttl {
+	text-align: center;
+    padding-bottom: 30px;
+}
+
+.section_ttl h2 {
+	font-size: 4rem;
+	border-bottom: solid 3px #3D7EFF;
+	display: inline-block;
+	text-align: center;
+	font-weight: 500;
+}
+
+@media screen and (max-width:1020px) {
+.section_ttl h2 {
+	font-size: 2.5rem;
+} 
+}
